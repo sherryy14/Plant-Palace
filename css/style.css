@@ -1,0 +1,246 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Bricolage Grotesque', sans-serif;
+ }
+
+ .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background.jpg");
+    height: 100%;
+    padding: 200px 0;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .hero-text {
+    text-align: center;
+  
+    color: white !important;
+  }
+
+
+
+
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.order-btn{
+    background-color: #65a15a;
+    color: #fff;
+}
+
+/* li::after {
+    background-color: #65a15a;
+    width: 0%;
+    transition: 0.5s;
+    height: 2px;
+    display: block;
+    margin: auto;
+    content: "";
+}
+
+li:hover:after {
+    width: 10%;
+}
+#line::after {
+    background-color: #65a15a;
+    width: 0%;
+    transition: 0.5s;
+    height: 2px;
+    display: block;
+    margin: auto;
+    content: "";
+}
+
+#line:hover:after {
+    width: 100%;
+}
+
+.dropdown::after {
+    background-color: #65a15a;
+    width: 0%;
+    transition: 0.5s;
+    height: 2px;
+    display: block;
+    margin: auto;
+    content: "";
+}
+
+.dropdown:hover:after {
+    width: 100%;
+} */
+
+#details{
+    background:#3e523b;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 7px;
+}
+.img-card{
+    overflow: hidden;
+}
+#card2{
+   
+    border-left: 1px solid rgb(207, 207, 207);  
+    border-right: 1px solid rgb(207, 207, 207);
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+  
+#card, #merciado{
+    transition: transform .3s;
+    
+}
+  
+#card:hover, #merciado:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.1); 
+}
+
+h1, h4{
+    transition: transform .3s;
+    
+}
+  
+h1:hover, h4:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.1); 
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+#videosList {
+	width: 100%;
+	overflow: hidden;
+}
+
+.video {
+	width: 100%;
+}
+
+#box{
+	background: linear-gradient(#05753d,#75ab4b);
+}
+#box2{
+	background: #05753d;
+}
+#logo{
+    width: 200px;
+    height: 200px;
+}
+#merciado {
+    background: linear-gradient(rgba(65, 254, 48, 0.278), rgb(6, 199, 77));
+    box-shadow: 5px 0px 7px rgb(149, 149, 149);
+    border-radius: 7px;
+}
+  .contact-image {
+    color: white;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(128, 227, 137, 0.3),
+        rgba(13, 84, 9, 0.1)
+      ),
+      url(../images/contact-bg.jpg);
+
+    color: #fff;
+
+    border-radius: 5px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  .text{
+    
+  }
+  .contact-info{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 80px;
+      
+
+  }
+  .contact-image i{
+      font-size: 25px;
+      
+  }
+  .contact-btn{
+      background-color: #2e5c26;
+      color: #fff;
+      padding: 15px 25px;
+      border: none;
+      font-weight: 700;
+  }
+  .contact-btn:hover{
+      background-color: #65a15a;
+  }
+  .contact-container{
+     box-shadow: 0 0 3px 5px  #65a15a;
+     border-radius: 10px;
+     margin-top: 100px !important;
+   
+  }
+
+  #map{
+  border: 2px solid black;
+  width: 80%;
+  height: 400px;
+  margin: 10px auto;
+
+}
+
+  .footer{
+      background-color: #65a15a;
+      padding: 50px 0;
+      position: relative;
+  }
+
+  .fa-brands{
+      font-size: 15px;
+      margin: 5px 10px;
+      background-color: #fff;
+      border-radius: 50%;
+      padding: 7px;
+
+  }
+  .fa-facebook{
+      color: #3b5998;
+  }
+  .fa-twitter{
+       color: #1DA1F2;
+  }
+  .fa-youtube{
+       color: #cd201f;
+  }
+  .wave{
+    position: absolute;
+    top: -100%;
+    left: 0;
+
+  }

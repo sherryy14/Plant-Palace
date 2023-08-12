@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>plant</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/path/to/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/mediaquery.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500&display=swap');
+</style>
+
+<body>
+    <!-- NAVBAR start --> 
+
+   
+
+    <header class="header" id="header">
+        <nav class="nav header-container">
+            <a href="#" class="nav__logo">
+                <i class="ri-leaf-line nav__logo-icon"></i> Plant Palace
+                <!-- <img src="../images/header-logo.png" alt=""> -->
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link active-link" id="defulLink">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="html/indoor.html" class="nav__link ">Indoor</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="html/fruits.html" class="nav__link">Fruites</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="html/vegetables.html" class="nav__link">Vegetable</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="html/flowering.html" class="nav__link">Flowering</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="html/contact.html" class="nav__link">Contact Us</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="html/addtocart.html" class="nav__link"> <i class="fa-solid fa-cart-shopping"></i></a>
+                    </li>
+                    
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <!-- <i class="ri-moon-line change-theme" id="theme-button"></i> -->
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!-- hero  -->
+    <div class="container-fluid">
+        <div class="hero-image">
+            <div class="hero-text">
+              <h1 style="font-size:50px; color: white;">Plant Palace</h1>
+              <p>Get Your Favourite Plant</p>
+          
+            </div>
+          </div>
+          
+    </div>
+    <!-- hero  -->
+
+
+
+
+    <div class="container my-5" id="content">
+        <div class="row">
+            <div class="card border-0 col-lg-4 col-md-4 col-12 py-sm-5 " style="width: 18rem;" data-aos="fade-up">
+                <div class="img-card">
+
+                    <img src="images/img2.jpg" class="card-img-top text-center" id="card" alt="...">
+                </div>
+                <div class="card-body" id="card2">
+                    <h5 class="card-title text-center">Plants, Simplified</h5>
+                    <p class="card-text text-center">Order plants ready to be placed in your home, office or garden.
+                        Just Unpack, Relax and Enjoy your green buddies anywhere in Pakistan*.</p>
+                </div>
+            </div>
+            <div class="card border-0 col-lg-4 col-md-4 col-12 py-sm-5" style="width: 18rem;" data-aos="fade-down ">
+                <div class="img-card">
+
+                    <img src="images/img4.jpg" class="card-img-top text-center" id="card" alt="...">
+                </div>
+                <div class="card-body" id="card2">
+                    <h5 class="card-title text-center">Secure Shipping</h5>
+                    <p class="card-text text-center">Our unique packaging will hold the plants in place and let the
+                        plant breathe, so that it reaches you fresh without any mess. All Major Cities of Pakistan</p>
+                </div>
+            </div>
+            <div class="card border-0 col-lg-4 col-md-4 col-12 py-sm-5" style="width: 18rem;" data-aos="fade-up">
+                <div class="img-card">
+                    <img src="images/img5.jpg" class="card-img-top text-center" id="card" alt="...">
+
+                </div>
+                <div class="card-body" id="card2">
+                    <h5 class="card-title text-center">Detailed Guidance</h5>
+                    <p class="card-text text-center">Get detailed plant care instructions from the website as well as
+                        real-time guidance from our Garden Experts on Whatsapp.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5" id="container" data-aos="fade-up"
+        style="background-image: url('https://plantb-theme.myshopify.com/cdn/shop/files/banner-1.jpg?v=1630055355');">
+        <div class="container my-5">
+            <h1 class="text-center text-white">Garden From Our Heart</h1>
+            <div class="text-center my-5">
+
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="" >
+                        View Products
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#" >
+                        View Categories
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="html/contact.html" >
+                        Contact us
+                    </a>
+                </li>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- ITEM 1 -->
+    <div class="container-fluid" id="main">
+        <div class="d-xl-flex my-5" data-aos="fade-down">
+            <div id="box" class="container py-5 w-25">
+                <div id="box2" class="container ms-xl-5 justify-content-center">
+                    <div id="merciado" class="row pt-3 pb-3 text-white" data-aos="fade-up">
+                        <img src="images/cat1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+    
+            <div id="material" class="container text-center w-100 pt-3 py-3 mt-5 align-content-center" data-aos="fade-down">
+                <h1>FLOWERING PLANTS</h1>
+                <h6 class="pt-4 text-center px-xl-5 text" id="">
+                    Welcome to Plant Palace, where beauty and nature intertwine! Our exquisite collection of flowering
+                    plants is a symphony of colors and fragrances that will transform your space into a vibrant garden
+                    haven. From the elegant petals of roses that whisper tales of romance, to the cheerful daisies that
+                    evoke a sense of pure joy, each plant is a masterpiece waiting to bloom in your care.
+                </h6>
+                <br>
+                <br>
+                <li class="nav-item">
+                    <a class="nav-link" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        View Categories
+                    </a>
+                </li>
+            </div>
+    
+        </div>
+    
+        <!-- ITEM 2 -->
+        <div class="d-xl-flex my-5" data-aos="fade-down">
+            <div id="box" class="container py-5 w-25">
+                <div id="box2" class="container ms-xl-5 justify-content-center">
+                    <div id="merciado" class="row pt-3 pb-3 text-white" data-aos="fade-up">
+                        <img src="images/cat2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+    
+            <div id="material" class="container text-center w-100 pt-3 py-3 mt-5 align-content-center" data-aos="fade-down">
+                <h1>INDOOR PLANTS</h1>
+                <h6 class="pt-4 text-center px-xl-5 text" id="">
+                    The indoor greenery that brings nature's tranquility into your home. Our curated selection of indoor
+                    plants offers a verdant oasis for every corner and crevice of your living space. From the air-purifying
+                    prowess of snake plants to the low-maintenance charm of succulents, our plants are the perfect
+                    companions for both novice and seasoned plant enthusiasts. Discover the lush foliage of peace lilies
+                    that effortlessly brighten up any room, or the cascading beauty of pothos that adds a touch of elegance
+                    to your shelves.
+                </h6>
+                <br>
+                <br>
+                <li class="nav-item">
+                    <a class="nav-link" href="html/indoor.html">
+                        View Categories
+                    </a>
+                </li>
+            </div>
+    
+        </div>
+    
+        <!-- ITEM 3 -->
+        <div class="d-xl-flex my-5" data-aos="fade-down">
+            <div id="box" class="container py-5 w-25">
+                <div id="box2" class="container ms-xl-5 justify-content-center">
+                    <div id="merciado" class="row pt-3 pb-3 text-white" data-aos="fade-up">
+                        <img src="images/cat3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+    
+            <div id="material" class="container text-center w-100 pt-3 py-3 mt-5 align-content-center" data-aos="fade-down">
+                <h1>VEGETABLES PLANTS</h1>
+                <h6 class="pt-4 text-center px-xl-5 text" id="">
+                    Welcome to Plant Palace, where the joys of gardening meet the delight of homegrown goodness with our
+                    selection of vegetable plants. Cultivate your own sustainable kitchen garden with our diverse range of
+                    vegetables, handpicked to flourish in your care. From the juicy, vine-ripened tomatoes that embody the
+                    essence of summer, to the crisp, leafy greens that elevate your salads to new heights, our vegetable
+                    plants promise a bountiful harvest right at your fingertips.
+                </h6>
+                <br>
+                <br>
+                <li class="nav-item">
+                    <a class="nav-link" href="html/vegetables.html">
+                        View Categories
+                    </a>
+                </li>
+            </div>
+    
+        </div>
+    
+        <!-- ITEM 4 -->
+        <div class="d-xl-flex my-5" data-aos="fade-down">
+            <div id="box" class="container py-5 w-25">
+                <div id="box2" class="container ms-xl-5 justify-content-center">
+                    <div id="merciado" class="row pt-3 pb-3 text-white" data-aos="fade-up">
+                        <img src="images/cat4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+    
+            <div id="material" class="container text-center w-100 pt-3 py-3 mt-5 align-content-center" data-aos="fade-down">
+                <h1>FRUITS PLANTS</h1>
+                <h6 class="pt-4 text-center px-xl-5 text" id="">
+                    The magic of nature's bounty comes alive through our exquisite selection of fruit and vegetable plants.
+                    Embark on a journey of flavors with our handpicked assortment, designed to turn your garden into a haven
+                    of taste and nutrition. From the sweetness of sun-ripened strawberries to the tangy zest of homegrown
+                    tomatoes, each plant offers a slice of culinary heaven. Cultivate your own orchard with our fruit trees,
+                    from the elegance of citrus to the indulgence of figs. Our vegetable plants, from crunchy bell peppers
+                    to hearty zucchinis, promise the joy of harvesting your own organic produce.
+                </h6>
+                <br>
+                <br>
+                <li class="nav-item">
+                    <a class="nav-link" href="html/fruits.html" >
+                        View Categories
+                    </a>
+                </li>
+            </div>
+    
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer -->
+    <footer class="container-fluid footer" data-aos="fade-up">
+       
+          <div class="container">
+            <div class="row">
+           
+                <div class="col-lg-3 offset-3">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="images/footer-logo.png" id="logo" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="container ">
+                        <div class="d-flex justify-content-center">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                        <p class="text-center text-white my-3">250 Techwiz Aptech North Nazimabad, Karachi</p>
+                        <div class="d-flex justify-content-center">
+                            <div class="footer-info text-center text-white mx-3">
+                                <i class="fa-solid fa-phone"></i>
+
+                                <p class="text-white">+72533634</p>
+                            </div>
+                            <div class="footer-info text-center text-white mx-3">
+                                <i class="fa-solid fa-envelope"></i>
+
+                                <p class="text-white">plantpalace@techwiz.com</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </footer>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOfoQEnSeEMhNmp8NI6ZZGulHloVCIZUA&callback=initMap"></script>
+
+    <script>
+      
+        let map;
+
+        function initMap() {
+            var location_1 = { lat: 24.9288488, lng: 67.034556 }
+            map = new google.maps.Map(document.getElementById("map"), {
+                center: location_1,
+                zoom: 20,
+            });
+            const marker = new google.maps.Marker({
+                position: location_1,
+                map: map,
+                label: "A",
+                title: "Aptech Learning Institute",
+                draggable: false,
+                animation: google.maps.Animation.BOUNCE
+                // icon: 'mapicon.png'
+            });
+        }
+
+        window.initMap = initMap;
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="script/app.js"></script>
+    <script src="script/nav.js"></script>
+
+    <script src="/path/to/flickity.pkgd.min.js"></script>
+    <script>
+        $('.main-carousel').flickity({
+            // options
+            cellAlign: 'left',
+            contain: true
+        });
+        var elem = document.querySelector('.main-carousel');
+        var flkty = new Flickity(elem, {
+            // options
+            cellAlign: 'left',
+            contain: true
+        });
+
+        // element argument can be a selector string
+        //   for an individual element
+        var flkty = new Flickity('.main-carousel', {
+            // options
+        });
+
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        AOS.init();
+
+        // You can also pass an optional settings object
+        // below listed default settings
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 400, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+    </script>
+</body>
+
+</html>

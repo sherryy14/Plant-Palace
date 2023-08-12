@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media  (min-width: 0px) and (max-width:1200px) {
+    #box{
+      width: 100% !important;
+    }
+  
+  }
+  @media  (min-width: 0px) and (max-width:900px) {
+   
+    .text{
+      font-size:16px;
+      padding: 0 !important;
+    }
+  }
